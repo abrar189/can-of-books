@@ -24,9 +24,9 @@ Name of feature: User Authentication with Auth0
 Estimate of time needed to complete: 3hr
 
 Start time: 2:30
-Finish time: _____
+Finish time: 4
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1hour and half
 
 
 # Start your own "Can of Books" App
