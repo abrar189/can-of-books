@@ -20,7 +20,7 @@ class Header extends React.Component {
         <Link to="/">Home</Link>
         <Link to="/profile">Profile</Link>
         {/* TODO: if the user is logged in, render the `LogoutButton` - if the user is logged out, render the `LoginButton` */}
-        {isAuthenticated == true?  <LogoutButton />: <LoginButton />}
+        {isAuthenticated === true?  <LogoutButton />: <LoginButton />}
 
       </Navbar>
     );

@@ -27,7 +27,7 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/">
                 {/* TODO: if the user is logged in, render the `BestBooks` component, if they are not, render the `Login` component */}
-                {isAuthenticated == true?  <BestBooks />: <Login />}
+                {isAuthenticated === true?  <BestBooks />: <Login />}
                    {/* {/* {isAuthenticated && */}
                    <BestBooks />
                 
