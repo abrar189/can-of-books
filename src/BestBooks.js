@@ -10,7 +10,7 @@ class MyFavoriteBooks extends React.Component {
     super(props);
     this.state = {
      userData: [],
-     email:''
+    
     }
   
   }
