@@ -38,6 +38,16 @@ Finish time: 6
 
 Actual time needed to complete: 3:30
 
+Name of feature: Resource Create and Delete
+
+Estimate of time needed to complete: 6hr
+
+Start time: 2pm
+
+Finish time: 10pm
+
+Actual time needed to complete: 8hr
+
 
 # Start your own "Can of Books" App
 
