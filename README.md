@@ -48,6 +48,15 @@ Finish time: 10pm
 
 Actual time needed to complete: 8hr
 
+Name of feature: Update a Resource
+Estimate of time needed to complete: 2hr
+
+Start time: 2:30
+
+Finish time: 4
+
+Actual time needed to complete: 1:30
+
 
 # Start your own "Can of Books" App
 
