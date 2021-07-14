@@ -3,13 +3,8 @@ import { Modal, Button } from 'react-bootstrap'
 import BookForm from './BookForm';
 
 export class BookFormModal extends Component {
-    constructor(props) {
-        super(props);
-    }
-    book = () => {
-        return this.props.addBook
-    }
 
+    
 
     render() {
         return (
@@ -20,7 +15,7 @@ export class BookFormModal extends Component {
                         <Modal.Title>form</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <BookForm />
+                        <BookForm  addBook={this.props.addBook} />
                     </Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={this.props.hide} >
