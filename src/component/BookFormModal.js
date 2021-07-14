@@ -16,6 +16,7 @@ export class BookFormModal extends Component {
                     </Modal.Header>
                     <Modal.Body>
                         <BookForm  addBook={this.props.addBook} />
+                        
                     </Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={this.props.hide} >
