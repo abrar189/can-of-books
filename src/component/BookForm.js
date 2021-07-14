@@ -4,8 +4,6 @@ import { Form, Button } from 'react-bootstrap';
 
 
 export class bookForm extends Component {
-
- 
     render() {
         return (
             <div>
@@ -16,7 +14,7 @@ export class bookForm extends Component {
                         <Form.Control type="text" placeholder="Status" name='status' />
                     </Form.Group>
                     <Button variant="primary" type="submit">
-                       Submit
+                        Submit
                     </Button>
                 </Form>
             </div>
@@ -24,4 +22,4 @@ export class bookForm extends Component {
     }
 }
 
-export default bookForm ;
+export default bookForm;

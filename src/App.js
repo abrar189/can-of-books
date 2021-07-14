@@ -21,31 +21,12 @@ class App extends React.Component {
     super(props);
     this.state = {
     showModal: false,
-        // hideModal: false
+    
 
     }
-
-    
-}
-showModelFun = () => {
-    this.setState({
-        showModal: true,
-    })
-
-
-}
-
-hideModelFun = () => {
-    this.setState({
-        showModal: false,
-    })
-
-
 }
 
 
-
- 
 
   render() {
     const { isAuthenticated } = this.props.auth0;
@@ -77,7 +58,6 @@ hideModelFun = () => {
             <Footer />
           {/* </IsLoadingAndError> */}
         </Router>
-        <BookFormModal show={this.state.showModal}  hide={this.hideModelFun}/>
         
       </>
     );
