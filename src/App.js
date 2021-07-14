@@ -47,7 +47,7 @@ class App extends React.Component {
                    {/* {/* {isAuthenticated && */}
                   
                 
-                { !isAuthenticated && <Login />} 
+                {/* { !isAuthenticated && <Login />}  */}
               </Route >
               <Route exact path="/profile">
                 <Profile />
